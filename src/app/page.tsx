@@ -1,9 +1,5 @@
 'use client'
-import Image from "next/image";
 import { useRef, useState, useEffect } from "react";
-import { useFormState, useFormStatus } from "react-dom";
-import { loadSound } from '@/app/actions'
-
 
 export default function Home() {
   const audioRef = useRef(null);
