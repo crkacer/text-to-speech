@@ -2,7 +2,7 @@
 import { useRef, useState, useEffect } from "react";
 
 export default function Home() {
-  const audioRef = useRef(null);
+  const audioRef = useRef<HTMLAudioElement| null>(null);
 
   const [text, setText] = useState<string>('');
   const [audioURL, setAudioURL] = useState<string>('');
